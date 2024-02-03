@@ -20,6 +20,10 @@ const bookingSchema = new mongoose.Schema(
       type: String,
       require: true,
     },
+    airplaneId: {
+      type: String,
+      require: true,
+    },
   },
   {
     timestamps: true,
