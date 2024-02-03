@@ -46,7 +46,7 @@ const airplaneSchema = new mongoose.Schema({
   },
   status:{
     type:String,
-    default:'Yet to Start'
+    default:'Yet to Lauch'
   }
 });
 module.exports = mongoose.model('airplanes', airplaneSchema)
