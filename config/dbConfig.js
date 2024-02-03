@@ -1,6 +1,6 @@
 //Importing mongoose
 const mongoose = require("mongoose");
-
+//Mongoose configuration
 mongoose.connect(process.env.mongo_url);
 
 //Creating a connection object
